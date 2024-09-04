@@ -55,7 +55,7 @@ class ChatApp(App):
         self.chat_container.add_widget(label)
 
     def get_chatgpt_response(self, prompt):
-        api_key = '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'  # Substitua pela sua chave de API real
+        api_key = ''  # Substitua pela sua chave de API real
         url = 'https://api.openai.com/v1/chat/completions'
         headers = {
             'Content-Type': 'application/json',
